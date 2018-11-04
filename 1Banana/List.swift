@@ -201,6 +201,9 @@ class DayMealsListViewController: UIViewController, UITableViewDataSource, UITab
                     isInsertedAtTheEnd = false
                 }
             }
+            
+            // HealthKit sync
+            
             break
         case.delete:
             // MARK: Delete
