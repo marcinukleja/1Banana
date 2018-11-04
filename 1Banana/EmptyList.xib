@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16D30a" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="EmptyAllMealsView" customModule="_Banana" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2ES-Oo-Dqo">
+                    <rect key="frame" x="16" y="0.0" width="382" height="680"/>
+                    <attributedString key="attributedText">
+                        <fragment>
+                            <string key="content">Track your meals keeping in mind
+one simple rule
+
+</string>
+                            <attributes>
+                                <color key="NSColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <font key="NSFont" size="16" name=".AppleSystemUIFont"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="●">
+                            <attributes>
+                                <color key="NSColor" red="1" green="0.81229654949999996" blue="0.24918619789999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <font key="NSFont" size="24" name=".SFNSText"/>
+                                <font key="NSOriginalFont" size="24" name=".SFNSText"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineHeightMultiple="1.5" tighteningFactorForTruncation="0.0"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ≈ 100 kcal ≈ ">
+                            <attributes>
+                                <color key="NSColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <font key="NSFont" size="24" name=".SFNSText"/>
+                                <font key="NSOriginalFont" size="24" name=".SFNSText"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineHeightMultiple="1.5" tighteningFactorForTruncation="0.0"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="🍌">
+                            <attributes>
+                                <color key="NSColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <font key="NSFont" size="24" name=".AppleColorEmojiUI"/>
+                                <font key="NSOriginalFont" size="24" name=".AppleColorEmojiUI"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineHeightMultiple="1.5" tighteningFactorForTruncation="0.0"/>
+                            </attributes>
+                        </fragment>
+                    </attributedString>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="2ES-Oo-Dqo" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="82H-lc-Cu2"/>
+                <constraint firstItem="2ES-Oo-Dqo" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="Hsv-TA-fiW"/>
+                <constraint firstAttribute="bottom" secondItem="2ES-Oo-Dqo" secondAttribute="bottom" constant="56" id="Zko-ak-lE0"/>
+                <constraint firstAttribute="trailing" secondItem="2ES-Oo-Dqo" secondAttribute="trailing" constant="16" id="xIN-RY-2Lu"/>
+            </constraints>
+            <point key="canvasLocation" x="-79.5" y="52.5"/>
+        </view>
+    </objects>
+</document>
